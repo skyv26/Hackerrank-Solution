@@ -23,7 +23,7 @@ birthday has the following parameter(s):
 - int d: Ron's birth day
 - int m: Ron's birth month
 
-#### **Result**
+#### **Returns**
 - int: the number of ways the bar can be divided
 
 #### **Constraints**
@@ -40,3 +40,25 @@ birthday has the following parameter(s):
 #### **Sample Output 0**
 
 > 2
+
+#### **Explanation 0**
+
+Lily wants to give Ron `m = 2` squares summing to `d = 3` . The following two segments meet the criteria:
+
+<img src='./img/img-1.png' style="background: white; padding: 2rem;">
+
+#### **Sample Input 1**
+
+> 6 <br>1 1 1 1 1 1<br>3 2
+
+#### **Sample Output 0**
+
+> 0
+
+#### **Explanation 1**
+
+Lily wants to give Ron `m = 2` squares summing to `d = 3` . The following two segments meet the criteria:
+
+<img src='./img/img-2.png' style="background: white; padding: 2rem;">
+
+Thus, we print `0` as our answer.
